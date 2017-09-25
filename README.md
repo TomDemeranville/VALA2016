@@ -551,31 +551,32 @@
   <img src="http://alainna.org/orcid/clip_image042.jpg" alt="configure request URI" width="350" height="195" border="0" border="0" /><br />&nbsp; </li>
 <li>Click <strong>Enter request body</strong>. Here is where you&rsquo;ll enter the XML for the works you wish to  add.<br />&nbsp; </li>
 <li>Copy the XML.<br />&nbsp; </li>
-	<li><code><?xml version="1.0" encoding="UTF-8"?>
-<education:education
-	xmlns:common="http://www.orcid.org/ns/common" xmlns:education="http://www.orcid.org/ns/education"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://www.orcid.org/ns/education ../education-2.0.xsd ">	
-	<education:department-name>Department</education:department-name>
-	<education:role-title>Degree title</education:role-title>
-	<common:start-date>
-		<common:year>2012</common:year>
-		<common:month>01</common:month>
-		<common:day>01</common:day>
-	</common:start-date>
-	<education:organization>
-		<common:name>My University</common:name>
-		<common:address>
-			<common:city>Some City</common:city>
-			<common:region>Region</common:region>
-			<common:country>US</common:country>
-		</common:address>
-		<common:disambiguated-organization>
-			<common:disambiguated-organization-identifier>XXXXXX</common:disambiguated-organization-identifier>
-			<common:disambiguation-source>RINGGOLD</common:disambiguation-source>
-		</common:disambiguated-organization>
-	</education:organization>	   	
-		</education:education></code></li>
+	<li><code>&lt;li&gt;copy the XML.&lt;br /&gt;&amp;nbsp; &lt;/li&gt;
+	&lt;li&gt;&lt;code&gt;&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;education:education
+	xmlns:common=&quot;http://www.orcid.org/ns/common&quot; xmlns:education=&quot;http://www.orcid.org/ns/education&quot;
+	xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;
+	xsi:schemaLocation=&quot;http://www.orcid.org/ns/education ../education-2.0.xsd &quot;&gt;	
+	&lt;education:department-name&gt;Department&lt;/education:department-name&gt;
+	&lt;education:role-title&gt;Degree title&lt;/education:role-title&gt;
+	&lt;common:start-date&gt;
+		&lt;common:year&gt;2012&lt;/common:year&gt;
+		&lt;common:month&gt;01&lt;/common:month&gt;
+		&lt;common:day&gt;01&lt;/common:day&gt;
+	&lt;/common:start-date&gt;
+	&lt;education:organization&gt;
+		&lt;common:name&gt;My University&lt;/common:name&gt;
+		&lt;common:address&gt;
+			&lt;common:city&gt;Some City&lt;/common:city&gt;
+			&lt;common:region&gt;Region&lt;/common:region&gt;
+			&lt;common:country&gt;US&lt;/common:country&gt;
+		&lt;/common:address&gt;
+		&lt;common:disambiguated-organization&gt;
+			&lt;common:disambiguated-organization-identifier&gt;XXXXXX&lt;/common:disambiguated-organization-identifier&gt;
+			&lt;common:disambiguation-source&gt;RINGGOLD&lt;/common:disambiguation-source&gt;
+		&lt;/common:disambiguated-organization&gt;
+	&lt;/education:organization&gt;	   	
+&lt;/education:education&gt;&lt;/code&gt;</code></li>
 <li>Paste the copied content into the <strong>Request Body </strong>text box.<br />&nbsp; </li>
 <li>Customize the text to reflect your institution. For the disambiguated-organization-identifier, replace XXXXXX with the <a href="http://ido.ringgold.com" target="_blank">Ringgold identifier</a> for your institution.<br />&nbsp; </li>
 <li>Click <strong>Close</strong>.<br />
