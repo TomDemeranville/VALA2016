@@ -550,7 +550,32 @@
   <br />
   <img src="http://alainna.org/orcid/clip_image042.jpg" alt="configure request URI" width="350" height="195" border="0" border="0" /><br />&nbsp; </li>
 <li>Click <strong>Enter request body</strong>. Here is where you&rsquo;ll enter the XML for the works you wish to  add.<br />&nbsp; </li>
-<li>Go to [sample-employment-affiliation.xml](sample-employment-affiliation.xml) and copy the XML.<br />&nbsp; </li>
+<li>Copy the XML.<br />&nbsp; </li>
+	<li><code><?xml version="1.0" encoding="UTF-8"?>
+<education:education
+	xmlns:common="http://www.orcid.org/ns/common" xmlns:education="http://www.orcid.org/ns/education"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.orcid.org/ns/education ../education-2.0.xsd ">	
+	<education:department-name>Department</education:department-name>
+	<education:role-title>Degree title</education:role-title>
+	<common:start-date>
+		<common:year>2012</common:year>
+		<common:month>01</common:month>
+		<common:day>01</common:day>
+	</common:start-date>
+	<education:organization>
+		<common:name>My University</common:name>
+		<common:address>
+			<common:city>Some City</common:city>
+			<common:region>Region</common:region>
+			<common:country>US</common:country>
+		</common:address>
+		<common:disambiguated-organization>
+			<common:disambiguated-organization-identifier>XXXXXX</common:disambiguated-organization-identifier>
+			<common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+		</common:disambiguated-organization>
+	</education:organization>	   	
+		</education:education></code></li>
 <li>Paste the copied content into the <strong>Request Body </strong>text box.<br />&nbsp; </li>
 <li>Customize the text to reflect your institution. For the disambiguated-organization-identifier, replace XXXXXX with the <a href="http://ido.ringgold.com" target="_blank">Ringgold identifier</a> for your institution.<br />&nbsp; </li>
 <li>Click <strong>Close</strong>.<br />
