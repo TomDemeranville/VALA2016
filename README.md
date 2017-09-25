@@ -551,8 +551,8 @@
   <img src="http://alainna.org/orcid/clip_image042.jpg" alt="configure request URI" width="350" height="195" border="0" border="0" /><br />&nbsp; </li>
 <li>Click <strong>Enter request body</strong>. Here is where you&rsquo;ll enter the XML for the works you wish to  add.<br />&nbsp; </li>
 <li>Copy the XML.<br />&nbsp; </li>
-	<li><code>&lt;li&gt;copy the XML.&lt;br /&gt;&amp;nbsp; &lt;/li&gt;
-	&lt;li&gt;&lt;code&gt;&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+<pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;education:education
 	xmlns:common=&quot;http://www.orcid.org/ns/common&quot; xmlns:education=&quot;http://www.orcid.org/ns/education&quot;
 	xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;
@@ -576,7 +576,8 @@
 			&lt;common:disambiguation-source&gt;RINGGOLD&lt;/common:disambiguation-source&gt;
 		&lt;/common:disambiguated-organization&gt;
 	&lt;/education:organization&gt;	   	
-&lt;/education:education&gt;&lt;/code&gt;</code></li>
+&lt;/education:education&gt;
+</pre></li>
 <li>Paste the copied content into the <strong>Request Body </strong>text box.<br />&nbsp; </li>
 <li>Customize the text to reflect your institution. For the disambiguated-organization-identifier, replace XXXXXX with the <a href="http://ido.ringgold.com" target="_blank">Ringgold identifier</a> for your institution.<br />&nbsp; </li>
 <li>Click <strong>Close</strong>.<br />
