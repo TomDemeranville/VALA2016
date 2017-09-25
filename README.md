@@ -529,14 +529,8 @@
 <p align="right" style="font-size:9px"><a href="#top">-top-</a></p>
 
 
-[//]: # (---------POST AN AFFILIATION TO YOUR INSTITUTION---------)
-<a name="7.3-post-affiliation"></a>
-#7.3. POST AN AFFILIATION TO YOUR INSTITUTION (50 min)
-_ACTIVITY_
-
+<h2><a name="7.3"></a>7.3 Post an employment affiliation to your ORCID record</h2>
 <p>In this section we will add and update an employment affiliation to your Sandbox test ORCID record using the permission that you have already received from the earlier exercise. Note: It is also possible to post an education affiliation using [different slightly different XML and endpoints](sample-education-affiliation.xml).</p>
-
-<h2><a name="7.3.1"></a>7.3 Post an employment affiliation to your ORCID record</h2>
 <ol>
 <li>Beneath <strong>Step 3: Configure request to API</strong>, set <strong>HTTP Method</strong> to <strong>POST</strong>.<br />&nbsp; </li>
 <li>Click <strong>Add headers</strong> and enter the following values:</li>
